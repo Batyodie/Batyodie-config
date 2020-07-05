@@ -35,17 +35,17 @@ $ npm run start
 │     └──  styles.css<br>
 │     └──  assets<br>
 │       │      └──   fonts<br>
-│     └──  common<br>
+│       └──  common<br>
 │       │      └──   button<br>
 │       │       │      └──   button.css<br>
 │       │       │      └──   button.js<br>
 │       │       │      └──   button.png<br>
-│     └──  desktop<br>
-│     └──  touch<br>
-│     └──  styles<br>
-│       │      └──   vars.css<br>
-│       │      └──   reset.css<br>
-│       │      └──   break-points.css<br>
+│       └──  desktop<br>
+│       └──  touch<br>
+│       └──  styles<br>
+│       │        └──   vars.css<br>
+│       │        └──   reset.css<br>
+│       │        └──   break-points.css<br>
 ├──  webpack.config<br>
 ├──  node_modules<br>
 ├──  dist<br>
@@ -71,8 +71,12 @@ breakpoints, or styles for third-party libraries</p>
 <h4 class="code-line" data-line-start=95 data-line-end=96 ><a id="srcindexjs_95"></a>src/index.js</h4>
 <p class="has-line-data" data-line-start="96" data-line-end="97">Is the main entry point for bootstrapping the application.</p>
 <p class="has-line-data" data-line-start="98" data-line-end="99">When using vue, this file should render the root application component.</p>
-<p class="has-line-data" data-line-start="100" data-line-end="102">import Vue from ‘vue’<br>
+<p class="has-line-data" data-line-start="100" data-line-end="102">
+  ```
+import Vue from ‘vue’<br>
 import App from ‘./App.vue’</p>
+
 <p class="has-line-data" data-line-start="103" data-line-end="106">new Vue({<br>
 render: h =&gt; h(App)<br>
 }).$mount(’#app’)</p>
+```
