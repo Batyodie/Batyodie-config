@@ -1,0 +1,17 @@
+*.rbc
+capybara-*.html
+/idea
+.idea
+/.idea
+.rspec
+/log
+/tmp
+/node_modules
+/dist
+/db/*.sqlite3
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
