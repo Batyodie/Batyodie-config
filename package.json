@@ -74,6 +74,7 @@
     "webpack-dev-middleware": "^3.7.2",
     "webpack-dev-server": "^3.10.3"
   },
+  "pre-commit": "lint-staged",
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
@@ -93,7 +94,6 @@
     ],
     "env": {
       "node": true
-    },
-    "pre-commit": "lint-staged"
+    }
   }
 }
