@@ -72,11 +72,10 @@ breakpoints, or styles for third-party libraries</p>
 <p class="has-line-data" data-line-start="96" data-line-end="97">Is the main entry point for bootstrapping the application.</p>
 <p class="has-line-data" data-line-start="98" data-line-end="99">When using vue, this file should render the root application component.</p>
 <p class="has-line-data" data-line-start="100" data-line-end="102">
-  ```
-import Vue from ‘vue’<br>
-import App from ‘./App.vue’</p>
-
-<p class="has-line-data" data-line-start="103" data-line-end="106">new Vue({<br>
-render: h =&gt; h(App)<br>
-}).$mount(’#app’)</p>
-```
+<pre><code class="has-line-data" data-line-start="101" data-line-end="108">import Vue from ‘vue’
+import App from ‘./App.vue’
+   
+ new Vue({
+  render: h =&gt; h(App)
+ }).$mount(’#app’)
+</code></pre>
